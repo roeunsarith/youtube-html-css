@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@300;700&display=swap" rel="stylesheet">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    <script src="style/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <i class="fa-solid fa-bars" id="btn"></i>
+            <a href="#" class="logo flex-div">
+                <i class="fa-brands fa-youtube"></i>
+                <p>YouTube</p>
+            </a>
+            
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <i class="fa-solid fa-microphone mic"></i>
+        </div>
+        <div class="nav-right flex-div">
+            <img src="img/upload.png" alt="">
+            <img src="img/more.png" alt="">
+            <img src="img/search.png" alt="">
+            <img src="img/notification.png" alt="">
+            <img src="img/sarith.jpg" alt="" class="user-icon">
+        </div>
+    </nav>
+     <!-- ----slidebar -->
+     <!-- <div class="slidebar">
+        <div class="shortcut-links">
+            <a href="#">
+                <img src="img/home.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href="#">
+                <img src="img/explore.png" alt="">
+                <p>Explore</p>
+            </a>
+            <a href="#">
+                <img src="img/subscriprion.png" alt="">
+                <p>Subscription</p>
+            </a>
+            <a href="#">
+                <img src="img/library.png" alt="">
+                <p>Library</p>
+            </a>
+            <a href="#">
+                <img src="img/history.png" alt="">
+                <p>History</p>
+            </a>
+            <a href="#">
+                <img src="img/playlist.png" alt="">
+                <p>Playlist</p>
+            </a>
+            <a href="#">
+                <img src="img/messages.png" alt="">
+                <p>Message</p>
+            </a>
+            <a href="#">
+                <img src="img/show-more.png" alt="">
+                <p>See More</p>
+            </a>
+            <hr>
+        </div>
+        <div class="subscrip-list">
+            <h3>SUBSCRIPTION</h3>
+            <a href="">
+                <img src="img/sarith.jpg" alt="">
+                <p>Roeun Sarith</p>
+            </a>
+            <a href="">
+                <img src="img/sokheang.jpg" alt="">
+                <p>Pha sokHeang</p>
+            </a>
+            <a href="">
+                <img src="img/sarath.jpg" alt="">
+                <p>Roeun Sarath</p>
+            </a>
+            <a href="">
+                <img src="img/chhit.jpg" alt="">
+                <p>Soeb Chhit</p>
+            </a>
+            <a href="">
+                <img src="img/roeun.jpg" alt="">
+                <p>Sarith's Son</p>
+            </a>
+        </div>
+    </div> -->
+    <div class="container play-container">
+        <div class="row">
+            <div class="play-video">
+                <video controls autoplay>
+                    <source src="img/3.mp4" type="video/mp4">
+                </video>
+                <div class="tags">
+                    <a href="">#Coding</a> <a href="">#HTML</a> <a href="">#CSS</a>
+                    <a href="">#JavaSCript</a>    
+                </div>
+                <h3>One Again</h3>
+                <div class="play-video-info">
+                    <p>1225 Views &bull; 2days ago</p>
+                    <div>
+                        <a href=""><img src="img/like.png">125</a>
+                        <a href=""><img src="img/dislike.png">2</a>
+                        <a href=""><img src="img/share.png">Share</a>
+                        <a href=""><img src="img/save.png">Save</a>
+                     </div>
+                </div>
+                <hr>
+                <div class="plublisher">
+                    <img src="img/roeun.jpg">
+                    <div>
+                        <p>MUSIC&MOVIE</p>
+                        <span>500k Subscribers</span>
+                    </div>
+                    <button type="button">Subscribe</button>
+                </div>
+                <div class="vid-description">
+                    <p>Channel that makes learning easy</p>
+                    <p>Subscribe Easy Tutorials to watch more tutorials on wev development</p>
+                    <hr>
+                    <h4>134 Comments</h4>
+                    <div class="add-comment">
+                        <img src="img/sarath.jpg">
+                        <input type="text" placeholder="Write comments...">
+                    </div>
+                    <div class="old-comment">
+                        <img src="img/sarith.jpg">
+                        <div>
+                            <h3>Roeun Sarith <span>2 days ago</span></h3>
+                            <p>This song is trending again in tiktok glad that many people gotta listen to this</p>
+                            <div class="acomment-action">
+                                <img src="img/like.png">
+                                <span>244</span>
+                                <img src="img/dislike.png">
+                                <span>2</span>
+                                <span>REPLY</span>
+                                <a href="">All replies</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="old-comment">
+                        <img src="img/sokheang.jpg">
+                        <div>
+                            <h3>Pha SokHeang <span>2 days ago</span></h3>
+                            <p>5 years later, I’m still in love with this song!!!
+                                It’s the best ost in this drama <333</p>
+                            <div class="acomment-action">
+                                <img src="img/like.png">
+                                <span>244</span>
+                                <img src="img/dislike.png">
+                                <span>2</span>
+                                <span>REPLY</span>
+                                <a href="">All replies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="right-sidebar">
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <video muted class="vid">
+                            <source src="img/2.mp4" type="video/mp4" />
+                            <source src="img/2.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Arcade - Duncan Laurence {LYRICS} ~!WINNER ESC 2019!</a>
+                        <p>Roeun Sarath</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <video muted class="vid">
+                            <source src="img/4.mp4" type="video/mp4" />
+                            <source src="img/4.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                    <div class="vid-info">
+                        <a href="">ZAYN - Dusk Till Dawn (Official Video) ft. Sia</a>
+                        <p>Roeun Sarith</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <video muted class="vid">
+                            <source src="img/5.mp4" type="video/mp4" />
+                            <source src="img/5.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Sam Smith - Fire On Fire (From "Watership Down")</a>
+                        <p>Pha SokHeang</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <video muted class="vid">
+                            <source src="img/6.mp4" type="video/mp4" />
+                            <source src="img/6.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Jamie Miller - Here's Your Perfect (Official Music Video)</a>
+                        <p>Roeun Sarith</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <video muted class="vid">
+                            <source src="img/7.mp4" type="video/mp4" />
+                            <source src="img/7.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</a>
+                        <p>Roeun Sarath</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <video muted class="vid">
+                            <source src="img/6.mp4" type="video/mp4" />
+                            <source src="img/6.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Jamie Miller - Here's Your Perfect (Official Music Video)</a>
+                        <p>Roeun Sarith</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <video muted class="vid">
+                            <source src="img/7.mp4" type="video/mp4" />
+                            <source src="img/7.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</a>
+                        <p>Roeun Sarath</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <video muted class="vid">
+                            <source src="img/6.mp4" type="video/mp4" />
+                            <source src="img/6.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Jamie Miller - Here's Your Perfect (Official Music Video)</a>
+                        <p>Roeun Sarith</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+                <div class="side-video-list">
+                    <a href="" class="small-thumbnail">
+                        <video muted class="vid">
+                            <source src="img/7.mp4" type="video/mp4" />
+                            <source src="img/7.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                    <div class="vid-info">
+                        <a href="">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</a>
+                        <p>Roeun Sarath</p>
+                        <p>15k Views</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    <script>
+        
+        $(document).ready(function(){
+            $(document).on('mouseover', 'video', function() { 
+                
+                $(this).get(0).play(); 
+                
+            }); 
+    
+            //pause video on mouse leave
+            $(document).on('mouseleave', 'video', function() { 
+                $(this).get(0).pause(); 
+            });
+        });
+        </script>
+</body>
+</html>

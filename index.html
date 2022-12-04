@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@300;700&display=swap" rel="stylesheet">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    <script src="style/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <i class="fa-solid fa-bars" id="btn"></i>
+            <a href="#" class="logo flex-div">
+                <i class="fa-brands fa-youtube"></i>
+                <p>YouTube</p>
+            </a>
+            
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <i class="fa-solid fa-microphone mic"></i>
+        </div>
+        <div class="nav-right flex-div">
+            <img src="img/upload.png" alt="">
+            <img src="img/more.png" alt="">
+            <img src="img/search.png" alt="">
+            <img src="img/notification.png" alt="">
+            <img src="img/sarith.jpg" alt="" class="user-icon">
+        </div>
+    </nav>
+    <!-- ----slidebar -->
+    <div class="slidebar">
+        <div class="shortcut-links">
+            <a href="#">
+                <img src="img/home.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href="#">
+                <img src="img/explore.png" alt="">
+                <p>Explore</p>
+            </a>
+            <a href="#">
+                <img src="img/subscriprion.png" alt="">
+                <p>Subscription</p>
+            </a>
+            <a href="#">
+                <img src="img/library.png" alt="">
+                <p>Library</p>
+            </a>
+            <a href="#">
+                <img src="img/history.png" alt="">
+                <p>History</p>
+            </a>
+            <a href="#">
+                <img src="img/playlist.png" alt="">
+                <p>Playlist</p>
+            </a>
+            <a href="#">
+                <img src="img/messages.png" alt="">
+                <p>Message</p>
+            </a>
+            <a href="#">
+                <img src="img/show-more.png" alt="">
+                <p>See More</p>
+            </a>
+            <hr>
+        </div>
+        <div class="subscrip-list">
+            <h3>SUBSCRIPTION</h3>
+            <a href="">
+                <img src="img/sarith.jpg" alt="">
+                <p>Roeun Sarith</p>
+            </a>
+            <a href="">
+                <img src="img/sokheang.jpg" alt="">
+                <p>Pha sokHeang</p>
+            </a>
+            <a href="">
+                <img src="img/sarath.jpg" alt="">
+                <p>Roeun Sarath</p>
+            </a>
+            <a href="">
+                <img src="img/chhit.jpg" alt="">
+                <p>Soeb Chhit</p>
+            </a>
+            <a href="">
+                <img src="img/roeun.jpg" alt="">
+                <p>Sarith's Son</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Main-->
+    <div class="container">
+        <!-- <div class="banner">
+            <img src="img/banner.png" alt="">
+        </div> -->
+        <div class="list-container">
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/3.mp4" type="video/mp4" />
+                            <source src="img/3.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/roeun.jpg" alt="">
+                        
+                        <div class="vid-info">
+                            <a href="">One Again</a>
+                            <p>MUSIC&MOVIEg</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/2.mp4" type="video/mp4" />
+                            <source src="img/2.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarath.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">Arcade - Duncan Laurence {LYRICS} ~!WINNER ESC 2019!</a>
+                            <p>Roeun Sarath</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/4.mp4" type="video/mp4" />
+                            <source src="img/4.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarith.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">ZAYN - Dusk Till Dawn (Official Video) ft. Sia</a>
+                            <p>Roeun Sarith</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/5.mp4" type="video/mp4" />
+                            <source src="img/5.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sokheang.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">Sam Smith - Fire On Fire (From "Watership Down")</a>
+                            <p>Pha SokHeang</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/6.mp4" type="video/mp4" />
+                            <source src="img/6.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/roeun.jpg" alt="">
+                        
+                        <div class="vid-info">
+                            <a href="">Jamie Miller - Here's Your Perfect (Official Music Video)</a>
+                            <p>Roeun Sarith</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/7.mp4" type="video/mp4" />
+                            <source src="img/7.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarath.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">Wiz Khalifa - See You Again ft. Charlie Puth [Official Video] Furious 7 Soundtrack</a>
+                            <p>Roeun Sarath</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/8.mp4" type="video/mp4" />
+                            <source src="img/8.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarith.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">BTS - "Permission to Dance" performed at the United Nations General Assembly</a>
+                            <p>Roeun Sarith</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/9.mp4" type="video/mp4" />
+                            <source src="img/9.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sokheang.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">Billie Eilish, Khalid - lovely</a>
+                            <p>Pha SokHeang</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>    
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/10.mp4" type="video/mp4" />
+                            <source src="img/10.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/roeun.jpg" alt="">
+                        
+                        <div class="vid-info">
+                            <a href="">Astrid S - Hurts So Good</a>
+                            <p>MUSIC&MOVIEg</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/11.mp4" type="video/mp4" />
+                            <source src="img/11.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarath.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">DJ Snake - Let Me Love You ft. Justin Bieber (Official Video)</a>
+                            <p>Roeun Sarath</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/12.mp4" type="video/mp4" />
+                            <source src="img/12.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarith.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">ជ្រូក Cute | ខេមរៈ សិរីមន្ត | LYRIC | RHM</a>
+                            <p>Roeun Sarith</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/13.mp4" type="video/mp4" />
+                            <source src="img/13.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sokheang.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">Halsey - Without Me</a>
+                            <p>Pha SokHeang</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>    
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/14.mp4" type="video/mp4" />
+                            <source src="img/14.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/roeun.jpg" alt="">
+                        
+                        <div class="vid-info">
+                            <a href="">Rihanna - Umbrella (Orange Version) (Official Music Video) ft. JAY-Z</a>
+                            <p>MUSIC&MOVIEg</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/15.mp4" type="video/mp4" />
+                            <source src="img/15.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarath.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">ផ្កាយព្រឹក - ស៊ីន ស៊ីសាមុត | Pkay Preuk - Sinn Sisamouth</a>
+                            <p>Roeun Sarath</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/16.mp4" type="video/mp4" />
+                            <source src="img/16.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarith.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">នៅតែប្រាថ្នា - ស៊ីន ស៊ីសាមុត | Nov Te Prathna - Sinn Sisamouth</a>
+                            <p>Roeun Sarith</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/17.mp4" type="video/mp4" />
+                            <source src="img/17.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sokheang.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">Charlie Puth - Attention [Official Video]</a>
+                            <p>Pha SokHeang</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>    
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/18.mp4" type="video/mp4" />
+                            <source src="img/18.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/roeun.jpg" alt="">
+                        
+                        <div class="vid-info">
+                            <a href="">TWICE "What is Love?" M/V</a>
+                            <p>MUSIC&MOVIEg</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/19.mp4" type="video/mp4" />
+                            <source src="img/19.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarath.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">Nicki Minaj - Starships (Explicit)</a>
+                            <p>Roeun Sarath</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/20.mp4" type="video/mp4" />
+                            <source src="img/20.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sarith.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">Avengers Endgame | 'Avengers Assemble' Scenes - IMAX 4K</a>
+                            <p>Roeun Sarith</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="vid-list">
+                <div class="vid-box">
+                    <a href="play.html">
+                        <video muted class="vid">
+                            <source src="img/21.mp4" type="video/mp4" />
+                            <source src="img/21.ogg" type="video/ogg">
+                        </video>
+                    </a>
+                </div>
+                <div class="vid-desc">
+                    <div class="txt-box">
+                        <img src="img/sokheang.jpg" alt="">
+                        <div class="vid-info">
+                            <a href="">Fast and Furious: Hobbs and Shaw: Cyborg motorcycle chase HD CLIP</a>
+                            <p>Pha SokHeang</p>
+                            <p>15k Vews 2 days</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a style="margin-bottom: 5px;">WATCH LATER</a>
+                        <a>ADD TO GUEUE</a>
+                    </div>
+                </div>
+            </div>        
+            
+        </div>
+    </div>
+    <script src="js/action.js"></script>
+    <script>
+        
+    $(document).ready(function(){
+        $(document).on('mouseover', 'video', function() { 
+            
+            $(this).get(0).play(); 
+            
+        }); 
+
+        //pause video on mouse leave
+        $(document).on('mouseleave', 'video', function() { 
+            $(this).get(0).pause(); 
+        });
+    });
+    </script>
+</body>
+</html>
